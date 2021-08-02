@@ -1,6 +1,6 @@
 @startuml
 
-class Ambient_Air_Temperature <<Client_Server_Interface>>
+interface  Ambient_Air_Temperature <<Client_Server_Interface>>
 {
   Defines an operation allowing to get data from an ambient air
   temperature sensor.
