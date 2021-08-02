@@ -1,0 +1,11 @@
+@startuml
+
+class Ambient_Air_Temperature <<Client_Server_Interface>>
+{
+  Defines an operation allowing to get data from an ambient air
+  temperature sensor.
+  --
+  + Get_Temperature( OUT temperature:T_Ambient_Air_Temperature )
+}
+
+@enduml
